@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="stil.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="favicon.ico.ico" type="image/x-icon">
+        <style>
+            body {
+              background-image: url('cars.jpg');
+              
+            }
+            </style>
+    </head>
+    <body>
+        <script src="js/cumparaturi.js"></script>
+        <div class="topnav">
+            <a class="active" href="index.html">Home</a>
+            <a href="modele.html">Modele</a>
+            <a href="conf.html">Configurator</a>
+            <a href="cumparaturi.html">Cos de cumparaturi</a>
+          </div>
+        <section>
+           
+        <article>
+        <fieldset>
+            <p><h2>Configurator Masina</h2></p>
+            <br><br>
+
+<form>
+    
+
+    <label for="car">Alegeti Modelul: </label>
+    <input list="cars" id="car" name="car">
+
+    <datalist id="cars">
+          <option value="Seria 1">
+          <option value="M135i xDrive">
+         <option value="Seria 2 Coupe">
+          <option value="Seria 2 Gran Coupe">
+          <option value="Seria 2 Cabriolet">
+    </datalist><br><br> 
+
+    <label for="gas">Tip Combustibil : </label>
+
+    <select name="gas" id="gas">
+        <option value="benz">Benzina</option>
+        <option value="diez">Diesel</option>
+        
+    </select><br><br>
+
+    <label for="color">Vopsea : </label>
+    <input type="color" id="fav" name="fav" value="#ff000">
+    <br><br> 
+
+    <label for="jante">Jante: </label>
+    <input list="jante" id="jan" name="jan">
+
+    <datalist id="jante">
+          <option value="V-spoke 18" ">
+          <option value="Double-spoke 18" ">
+         <option value="Y-spoke de 19" ">
+          <option value="Individual Double-spoke 19" ">
+         
+    </datalist><br><br> 
+   
+    <label for="tap">Tapiterie: </label>
+    <input list="tap" id="tapi" name="tapi">
+
+    <datalist id="tap">
+          <option value="PIELE SINTETICA ">
+          <option value="MATERIAL TEXTIL ">
+         <option value="PIELE ">
+          <option value="BMW INDIVIDUAL ">
+         
+    </datalist><br><br> 
+
+
+    <label for="ALTELE">Alte Mentiuni: </label>
+    <textarea id="ALTELE" name="ALTELE" rows="4" cols="50">
+    </textarea><br><br>
+    
+        </fieldset>
+    </article></section>
+    <footer>
+        <p>Programare Web 2021</p>
+    </footer>  
+    </body>
+</html>
